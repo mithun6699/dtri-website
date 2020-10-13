@@ -1,36 +1,41 @@
 .mainpage {
-  margin-top: 33px;
-  height: 90vh;
-  max-width: auto;
-  /* position: relative; */
-  /* background-image: url("https://c4.wallpaperflare.com/wallpaper/537/870/560/geometry-cyberspace-lines-abstract-wallpaper-preview.jpg"); */
-  background-repeat: repeat;
-  object-fit: fill;
+  background: url("../src//images/23170.jpg") center center/cover no-repeat;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
 }
 .mainpage__titile {
-  color: black;
   display: flex;
   justify-content: center;
-  padding: 25px;
+  padding: 50px;
 }
 .mainpage__info {
-  display: flex;
-  justify-content: left;
+  color: white;
+  /* font-family: fantasy; */
+}
+.mainpage__info > p {
+  padding: 30px;
+  font-size: 22px;
   text-align: left;
-  color: darkslategray;
-  padding: 50px;
-  font-size: 20px;
-  font-family: fantasy;
-  font-weight: 600;
 }
 .mainpage__icons {
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-bottom: 100px;
+}
+.mainpage__info > .mainpage__icons > .MuiSvgIcon-root {
+  padding: 10px;
+}
+.mainpage__info > .mainpage__icons > .linkedin:hover {
+  cursor: pointer;
+}
+.mainpage__info > .mainpage__icons > .facebook:hover {
   cursor: pointer;
 }
 .mainpage__icons > .MuiSvgIcon-root {
-  font-size: 50px;
+  font-size: 60px;
 }
 .linkedin {
   color: #1c77b5;

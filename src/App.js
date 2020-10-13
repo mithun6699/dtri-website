@@ -7,18 +7,16 @@ import AboutPage from './AboutPage';
 import ResearchPage from './ResearchPage';
 import Blog from './Blog';
 import Contact from './Contact';
-// import Port from './Port';
-// import data from '../src/data/About'
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <MainPage/>
+       <MainPage/>
       <AboutPage/>
       <ResearchPage/>
       <Blog/>
-      <Contact/>
+      <Contact/> 
 
     </div>
   );

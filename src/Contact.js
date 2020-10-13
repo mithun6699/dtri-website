@@ -31,8 +31,10 @@ function Contact() {
             </div>
             <div className="email">
               
-            <EmailIcon className="email__icon"/>
-            
+            <EmailIcon className="email__icon" />
+          
+        <a href="mailto:kcmarathe@ieee.org">Kiran Marathe</a>
+       
             </div>
             <div style={{display:"flex",justifyContent:"center"}}>
 
