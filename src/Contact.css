@@ -1,0 +1,26 @@
+.contact {
+  height: 700px;
+  width: 100%;
+  background-color: lightgray;
+}
+.email {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.email > .MuiSvgIcon-root {
+  font-size: 50px;
+}
+.email > .email__icon:hover {
+  color: coral;
+}
+.address {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px;
+}
+div > ul > li {
+  font-size: 18px;
+  font-weight: 500;
+}

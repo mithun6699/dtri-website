@@ -1,0 +1,51 @@
+.mainpage {
+  margin-top: 33px;
+  height: 90vh;
+  max-width: auto;
+  /* position: relative; */
+  /* background-image: url("https://c4.wallpaperflare.com/wallpaper/537/870/560/geometry-cyberspace-lines-abstract-wallpaper-preview.jpg"); */
+  background-repeat: repeat;
+  object-fit: fill;
+}
+.mainpage__titile {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.mainpage__info {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  color: darkslategray;
+  padding: 50px;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: 600;
+}
+.mainpage__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.mainpage__icons > .MuiSvgIcon-root {
+  font-size: 50px;
+}
+.linkedin {
+  color: #1c77b5;
+}
+.mainpage__icons > .facebook {
+  color: #4867aa;
+}
+.expandmore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.more {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}

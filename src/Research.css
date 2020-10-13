@@ -1,0 +1,21 @@
+.research {
+  height: 500px;
+  width: 100%;
+  background-color: lightsteelblue;
+}
+
+.rnd__heading {
+  padding: 8px;
+  text-align: center;
+}
+.rnd__info {
+  padding: 20px;
+  padding-bottom: 15px;
+}
+/* .rnd__points {
+  padding: 2px;
+} */
+
+div > ul > li {
+  padding: 12px;
+}

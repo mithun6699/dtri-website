@@ -1,0 +1,39 @@
+.about {
+  margin-top: 50px;
+  background-color: grey;
+  height: 700px;
+  width: 100%;
+}
+.about__img {
+  display: flex;
+  justify-content: center;
+  /* padding: 2px; */
+}
+/* .imageandata {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.info-data {
+  text-align: left;
+
+  color: whitesmoke;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.about__icon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
+  padding-top: 0px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.about__icon > .MuiSvgIcon-root {
+  font-size: 60px;
+}
+.about__icon > .linkedin:hover {
+  color: #1c77b5;
+}
